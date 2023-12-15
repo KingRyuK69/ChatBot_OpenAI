@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Chatbot Web App</title>
+  <style>
+    body, html {
+      height: 100%;
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    .chatbot-container {
+      width: 100%;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #f0f0f0;
+    }
+
+    .chatbot-frame {
+      width: 80%;
+      max-width: 600px;
+      height: 80vh;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      overflow: hidden;
+    }
+
+    iframe {
+      width: 100%;
+      height: 100%;
+      border: none;
+    }
+  </style>
+</head>
+<body>
+
+<div class="chatbot-container">
+  <div class="chatbot-frame">
+    <iframe src="https://web.powerva.microsoft.com/environments/Default-4ed6ea8d-6f86-411d-b7e0-37401bdb9b68/bots/cr444_botTest/webchat?__version__=2" frameborder="0"></iframe>
+  </div>
+</div>
+
+</body>
+</html>
